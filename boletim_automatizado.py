@@ -25,7 +25,7 @@ for i in range(num_alunos):
     nota = float(input(f'NOTA DO(A) ALUNO(A) {aluno.upper()}: '))
     if nota < 0 or nota > 10:
         print('\n-- NOTA INVALIDA, DIGITE NOVAMENTE --\n')
-        continue
+        quit()
     print('  ')
     alunos.append(aluno)
     notas.append(nota)

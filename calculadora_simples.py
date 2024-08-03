@@ -8,8 +8,6 @@ def soma(a,b):
 
 def subtracao(a,b):
     sub = a-b
-    if sub < 0:
-        sub = sub*(-1)
     return sub
 
 def multiplicacao(a,b):
